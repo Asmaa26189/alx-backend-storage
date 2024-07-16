@@ -1,4 +1,5 @@
-// Update DB
+// Update
+// multi: true  The script should update only document with name="Holberton school" (all of them)
 db.school.update(
     { name: "Holberton school" },
     {$set: {

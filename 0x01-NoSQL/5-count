@@ -1,2 +1,2 @@
-// Count
+// length
 db.school.count()
