@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-""" MongoDB Operations with Python using pymongo """
+""" pymongo """
 
 
 def update_topics(mongo_collection, name, topics):
-    """ Changes all topics of a school document based on the name """
+    """ update """
     query = {"name": name}
     new_values = {"$set": {"topics": topics}}
 
