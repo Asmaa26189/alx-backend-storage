@@ -2,6 +2,6 @@
 """pymongo """
 
 
-def insert_school(db, **kwargs):
+def insert_school(mongo_collection, **kwargs):
     """ Insert new """
-    return db.insert(kwargs)
+    return mongo_collection.insert(kwargs)
